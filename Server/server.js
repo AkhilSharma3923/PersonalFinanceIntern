@@ -14,8 +14,6 @@ await connectDB();
 // Middlewares
 
 
-import cors from 'cors';
-
 app.use(cors({
   origin: 'https://personalfinanceintern-frontend.onrender.com', // your deployed frontend
   credentials: true, // allow cookies

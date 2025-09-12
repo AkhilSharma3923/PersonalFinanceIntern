@@ -13,9 +13,9 @@ await connectDB();
 
 // Middlewares
 
-// https://personal-finance-intern-front.vercel.app
+
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://personalfinanceintern-frontend.onrender.com',
   credentials: true, // allow cookies
 }));
 

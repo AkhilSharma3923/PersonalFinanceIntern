@@ -15,7 +15,7 @@ const AddTransaction = () => {
     type: 'expense'
   });
 
-  const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personal-finance-intern.vercel.app";
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personalfinanceintern-backend.onrender.com";
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;

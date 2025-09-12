@@ -11,7 +11,7 @@ const DeleteTransaction = () => {
   const [error, setError] = useState(null);
   const [transaction, setTransaction] = useState(null);
 
-   const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personal-finance-intern.vercel.app";
+   const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personalfinanceintern-backend.onrender.com";
 
 
   useEffect(() => {

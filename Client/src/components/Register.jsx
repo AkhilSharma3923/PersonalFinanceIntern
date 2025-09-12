@@ -13,7 +13,7 @@ const Register = () => {
   const [error, setError] = useState(null);
 
   const navigate = useNavigate();
-  const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personal-finance-intern.vercel.app";
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personalfinanceintern-backend.onrender.com";
 
   const features = [
     { title: "Expense Tracking", description: "Monitor every transaction with precision", icon: <FaWallet className="text-green-500 w-6 h-6" /> },

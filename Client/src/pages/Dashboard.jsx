@@ -48,7 +48,7 @@ const Dashboard = () => {
   const [timeRange, setTimeRange] = useState('month');
   const [chartData, setChartData] = useState({});
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personal-finance-intern.vercel.app";
+    const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://personalfinanceintern-backend.onrender.com";
 
 
 

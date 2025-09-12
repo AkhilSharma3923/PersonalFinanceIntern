@@ -14,10 +14,24 @@ await connectDB();
 // Middlewares
 
 
+import cors from 'cors';
+
+const allowedOrigins = [
+  'https://personalfinanceintern-frontend.onrender.com', // your deployed frontend
+  'http://localhost:5173' // local dev
+];
+
 app.use(cors({
-  origin: 'https://personalfinanceintern-frontend.onrender.com',
-  credentials: true, // allow cookies
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true, // important for cookies
 }));
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

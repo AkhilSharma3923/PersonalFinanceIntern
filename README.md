@@ -2,10 +2,11 @@
 ````markdown
 # 💸 Personal Finance Tracker (MERN Stack)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
-[![Frontend](https://img.shields.io/badge/Frontend-React-blue)](https://reactjs.org/)  
-[![Backend](https://img.shields.io/badge/Backend-Node.js-green)](https://nodejs.org/)  
-[![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)](https://www.mongodb.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
+[![Frontend](https://img.shields.io/badge/Frontend-React-blue?logo=react&logoColor=white)](https://reactjs.org/) 
+[![Backend](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js&logoColor=white)](https://nodejs.org/) 
+[![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+
 
 > Effortlessly manage your personal finances with a **modern, responsive, and full-stack Finance Tracker** built on the MERN stack. Track income, expenses, and visualize your financial health in a sleek, intuitive dashboard.
 
